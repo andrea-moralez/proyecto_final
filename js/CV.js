@@ -15,9 +15,9 @@ document.getElementById("domicilioPersonal_btn").onclick =
 function myfunction(){
     var x = document.getElementById("domicilio");
     if (x.style.display === "none") {
-      x.style.display = "block", btn_sec.innerHTML = "cerrar domicilio" ;
+      x.style.display = "block";
     } else {
-      x.style.display = "none", btn_sec.innerHTML = "abrir domicilio" ;
+      x.style.display = "none";
     }
 }
 
@@ -25,8 +25,8 @@ document.getElementById("contacto_btn").onclick =
 function Contacto (){
     var x = document.getElementById("contacto");
     if (x.style.display === "none") {
-      x.style.display = "block", btn_sec.innerHTML = "cerrar contacto" ;
+      x.style.display = "block";
     } else {
-      x.style.display = "none", btn_sec.innerHTML = "abrir contacto" ;
+      x.style.display = "none";
     }
 }
